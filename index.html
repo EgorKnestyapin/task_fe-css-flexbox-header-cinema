@@ -15,16 +15,27 @@
   <body>
     <header>
       <div class="header">
-        <div class="imagebanner">
-          <img src="imagebanner.jpeg" alt="image banner" />
-        </div>
-        <nav>
-          <div class="logo"><img src="logo.png" alt="logo" /></div>
-          <div class="play"><img src="play.svg" alt="play" />Онлайн-кинотеатр</div>
-          <div class="oscar"><img src="oscar.svg" alt="oscar" />Оскар-2023</div>
-          <div class="input"><input type="text" id="input-film-serial" placeholder="Фильмы, сериалы, персональные подборки"></div>
-        </div>
-        </nav>
+        <div class="container">
+          <a href=""><img src="logo.png" alt="logo" /></a>
+          <nav class="navbar">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <img src="play.svg" alt="play-icon" class="icon">
+                  <span>Онлайн-кинотеатр</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <img class="icon" src="oscar.svg" alt="oscar-icon">
+                  <span>Оскар-2023</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <input type="search" placeholder="Поиск" id="search-input">
+              </li>
+            </ul>
+          </nav>
       </div>
     </header>
 

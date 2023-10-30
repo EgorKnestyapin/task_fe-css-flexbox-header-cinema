@@ -3,9 +3,45 @@ body {
   /* background-color: black; */
 }
 .header {
-  position: relative;
+  width: 100%;
+  min-height: 140px;
+  background-image: url(imagebanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: flex-end;
 }
-.imagebanner img {
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.nav-link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+#search-input {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.8);
+}
+/* .imagebanner img {
   width: 100%;
   position: absolute;
 }
@@ -51,4 +87,4 @@ nav {
   margin-bottom: 20px;
   width: 150px;
   border-radius: 5px;
-}
+} */
